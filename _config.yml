@@ -1,0 +1,27 @@
+# Site settings
+title: Ceiling Cat
+description: >- 
+  Have you ever longed for the old memes to enter crypto?
+  Well, your prayers have been answered.
+  Ceiling Cat returns as a Clanker token!
+
+# URL settings
+baseurl: ""
+url: "https://theceiling.cat"
+
+# Social media
+twitter_username: theceilingcat
+github_username: Degen-Studios
+
+# Build settings
+theme: minima
+
+# Performance optimizations
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
