@@ -1,0 +1,23 @@
+{% if site.data.social-links %}
+<div class="social-links">
+    {% assign sl = site.data.social-links %}
+    {% for entry in sl %}
+        {% assign key = entry | first %}
+        {% if sl[key].id %}
+            <a href="{{ sl[key].href }}{{ sl[key].id }}" 
+               title="{{ sl[key].title }}" 
+               target="_blank" 
+               class="social-icon">
+                {% if sl[key].transitionIcon %}
+                    <div class="icon-transition-wrapper">
+                        <img src="{{ sl[key].icon }}" alt="{{ sl[key].title }}" class="custom-icon primary-icon">
+                        <img src="{{ sl[key].transitionIcon }}" alt="{{ sl[key].title }}" class="custom-icon secondary-icon">
+                    </div>
+                {% else %}
+                    <img src="{{ sl[key].icon }}" alt="{{ sl[key].title }}" class="custom-icon">
+                {% endif %}
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

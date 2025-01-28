@@ -1,0 +1,37 @@
+telegram:
+  id: 'CeilingCatPortal'
+  href: 'https://t.me/TheCeilingCat'
+  title: 'Telegram'
+  icon: '/assets/images/icons/telegram.svg'
+
+twitter:
+  id: 'theceilingcat'
+  href: 'https://twitter.com/_CeilingCat'
+  title: 'X / Twitter'
+  icon: '/assets/images/icons/x.svg'
+  transitionIcon: '/assets/images/icons/twitter.svg'
+
+clanker:
+  id: '0x2452246D5a07427DA4270DC27C02D959d171d120'
+  href: 'https://www.clanker.world/clanker/0x2452246D5a07427DA4270DC27C02D959d171d120'
+  title: 'Clanker'
+  icon: '/assets/images/icons/clanker.png'
+
+basescan:
+  id: '0x2452246D5a07427DA4270DC27C02D959d171d120'
+  href: 'https://basescan.org/token/0x2452246D5a07427DA4270DC27C02D959d171d120'
+  title: 'Basescan'
+  icon: '/assets/images/icons/basescan.svg'
+
+geckoterminal:
+  id: '0x2452246D5a07427DA4270DC27C02D959d171d120'
+  href: 'https://www.geckoterminal.com/base/pools/'
+  title: 'GeckoTerminal'
+  icon: '/assets/images/icons/geckoterminal.svg'
+
+buy:
+  id: '0x2452246D5a07427DA4270DC27C02D959d171d120'
+  href: 'https://matcha.xyz/trade?buyAddress=0x2452246D5a07427DA4270DC27C02D959d171d120&buyChain=8453&ref=clanker&swapFeeBps=50'
+  title: 'Buy (Matcha)'
+  icon: '/assets/images/icons/matcha.svg'
+
